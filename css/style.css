@@ -1,0 +1,209 @@
+
+body {
+  font: 1em sans-serif;
+  color: rgb(14, 12, 12);
+  background-color: rgb(188, 188, 236);
+  padding: 5px;		
+}  
+
+#contenedor-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  padding: 2px;
+  background-color:white;
+  border-radius: 30px;
+  border:solid;
+  }
+
+
+header{
+  display: flex;    
+  justify-content: center;
+  min-height: 75px;
+  padding: 10px 10px;  
+  align-items: center;
+  background-color: rgb(54, 54, 138);
+  border-radius: 30px;
+  
+}
+
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  color: cornsilk;   
+  text-align: center;
+  margin-left: 22%;
+  margin-top: 2px;
+  
+}
+
+.logo {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 2%;   
+}
+
+.logo #header-img {
+  height: 40%;
+  width: 30%; 
+  margin-top: 10px;
+}
+
+nav {
+  height: 80%;
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 8px;
+}
+
+
+a {
+  color: rgb(213, 214, 238);  
+  text-decoration: underline;
+  text-decoration-style: solid;
+  padding: 8px;
+   
+}
+
+.contenedor-email {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 7%;
+  text-align: center;
+  
+}
+
+.contenedor-email #form {
+  height: 200%;
+  width: 150%;
+  margin-left: 150px;
+  
+}
+
+input#email { 
+  max-width: 300px;
+  width: 250px;
+  padding: 5px;
+
+} 
+
+.contenedor-email #submit {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 100%;    
+  background-color: rgb(54, 54, 138);
+  color:white;
+
+}
+
+
+  #video {
+    text-align: center;
+    
+} 
+
+#pagina-destino {
+  height: auto;
+  width: auto;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: -8%; 
+  
+}
+
+
+
+
+.imagenes-relojes {
+  margin: 1%;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: center;
+  align-items: center;
+  padding: 10px;
+
+} 
+
+
+
+
+#reloj-hombres-img {
+  height: 250px;
+  width: 15%;
+  padding: 80px;
+  margin-left: 5%;
+  margin-top: 1%;
+   
+
+}
+  
+ 
+
+#reloj-mujeres-img {
+  height: 250px;
+  width: 15%;
+  padding: 80px;
+  margin-left: 4%;
+  margin-top: 1%;
+  
+  
+  
+}
+
+#reloj-niños-img {
+  height: 250px;
+  width: 15%;
+  padding: 80px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+
+  
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+  
+  
+  
+
+ 
+
+
