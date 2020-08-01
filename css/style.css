@@ -1,54 +1,59 @@
 
 body {
+  width: 100%;
+  margin: 0 auto;
   font: 1em sans-serif;
   color: rgb(14, 12, 12);
-  background-color: rgb(188, 188, 236);
-  padding: 5px;		
+  background-color: rgb(227, 227, 243);
+  padding: 5px;	
+  font-size: 16px;	
+  
 }  
 
 #contenedor-header {
   display: flex;
   flex-direction: row;
   justify-content: center; 
-  padding: 2px;
+  padding: 0.125rem;
   background-color:white;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   border:solid;
+  
   }
 
 
 header{
   display: flex;    
   justify-content: center;
-  min-height: 75px;
-  padding: 10px 10px;  
+  min-height: 4.6875rem;
+  padding: 0.625rem;  
   align-items: center;
-  background-color: rgb(54, 54, 138);
-  border-radius: 30px;
+  background: linear-gradient(to bottom, rgb(67, 67, 168), rgb(193, 190, 200));
+  border-radius: 1.875rem;
   
 }
 
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
+  font-size: 3.125rem;
   color: cornsilk;   
   text-align: center;
   margin-left: 22%;
-  margin-top: 2px;
+  margin-top: 0.125rem;
   
 }
 
 .logo {
   display: flex;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   margin-left: 2%;   
 }
 
 .logo #header-img {
   height: 40%;
   width: 30%; 
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 nav {
@@ -61,7 +66,7 @@ nav > ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 
@@ -69,12 +74,12 @@ a {
   color: rgb(213, 214, 238);  
   text-decoration: underline;
   text-decoration-style: solid;
-  padding: 8px;
+  padding: 0.5rem;
    
 }
 
 .contenedor-email {
-  max-width: 700px;
+  max-width: 43.75rem;
   width: 100%;
   margin: auto;
 }
@@ -89,22 +94,22 @@ h2 {
 .contenedor-email #form {
   height: 200%;
   width: 150%;
-  margin-left: 150px;
+  margin-left: 9.375rem;
   
 }
 
-input#email { 
-  max-width: 300px;
-  width: 250px;
-  padding: 5px;
+input #email { 
+  max-width: 18.75rem;
+  width: 15.625rem;
+  padding: 0.3125rem;
 
 } 
 
 .contenedor-email #submit {
-  max-width: 150px;
+  max-width: 9.375rem;
   width: 100%;
-  height: 30px;
-  margin: 15px 0;
+  height: 1.875rem;
+  margin: 0.9375rem 0;
   border: 100%;    
   background-color: rgb(54, 54, 138);
   color:white;
@@ -138,7 +143,7 @@ input#email {
   display:flex;
   flex-direction: center;
   align-items: center;
-  padding: 10px;
+  padding: 0.625rem;
 
 } 
 
@@ -146,7 +151,7 @@ input#email {
 
 
 #reloj-hombres-img {
-  height: 250px;
+  height: 15.625rem;
   width: 15%;
   padding: 80px;
   margin-left: 5%;
@@ -158,7 +163,7 @@ input#email {
  
 
 #reloj-mujeres-img {
-  height: 250px;
+  height: 15.625rem;
   width: 15%;
   padding: 80px;
   margin-left: 4%;
@@ -169,15 +174,48 @@ input#email {
 }
 
 #reloj-niños-img {
-  height: 250px;
+  height: 15.625rem;
   width: 15%;
   padding: 80px;
   margin-left: 3%;
-  margin-top: 1%;
+  margin-top: 1%; 
+  
 }
 
+@media (max-width: 992 px) {
 
+  body {
+    font-size: 13px;
+  }
   
+  }
+     
+
+
+@media (max-width: 768 px) {
+  body {
+    font-size: 10px;
+  }
+  
+
+}
+
+@media (max-width 576 px) {
+  body {
+    font-size: 7px;
+  }
+  
+}
+  
+
+@media (max-width : 480px) {
+  body {
+    font-size: 4px;
+  }
+  
+
+          
+}
   
     
     
