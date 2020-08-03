@@ -1,85 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Landing Page</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Landing Page</title>
 </head>
+
 <body>
+  <div id="contenedor-header">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="Logo.png" alt="logo relojes" />
 
-<div id="contenedor-header">
-  <header id="header">
-    <div class="logo">
-    <img id="header-img" src="Logo.png" alt="logo relojes"/>
- 
-  <h1><em>RELOJES</em><br><em>M&H</em></br></h1>      
-</div>
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="#pagina-destino">Relojes de Hombres</a></li>
-        <li><a class="nav-link" href="#pagina-destino">Relojes de Mujeres</a></li>
-        <li><a class="nav-link" href="#pagina-destino">Relojes de Niños</a></li>
-      </ul>
-    </nav>
-</div>     
-</header>
+        <h1><em>RELOJES</em><br><em>M&H</em></br></h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#pagina-destino">Relojes Hombres</a></li>
+          <li><a class="nav-link" href="#pagina-destino">Relojes Mujeres</a></li>
+          <li><a class="nav-link" href="#pagina-destino">Relojes Niños</a></li>
+        </ul>
+      </nav>
 
+    </header>
+  </div>
 
-<section class="contenedor-email">
-  <h2>Para mayor información ingrese su correo electónico a continuación:</h2>
-  <form id="form" action="#">
-    <input
-      name="email" id="email" type="email" placeholder="Ingrese su Correo Electrónico" required/>
-    <input id="submit" type="submit" value="Enviar" class="btn"/>
-  </form>
-</section>
+  <main>
+    <section class="contenedor-email">
+      <h2>Para mayor información ingrese su correo electónico a continuación:</h2>
+      <form id="form" action="#">
+        <input class="form-1" name="email" id="email" type="email" placeholder="Ingrese su Correo Electrónico"
+          required />
+        <input class="submit" id="submit" type="submit" value="Enviar" class="btn" />
+      </form>
+    </section>
 
-</body>     
-    <main>
+    <section id="video">
       <h2>Video de presentación de las mejores marcas de relojes</h2>
-
-      <section id="video">
-        <iframe width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/TnDjIh02Vgw"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-      </section>
+      <iframe class="video-reloj" width="560" height="315" src="https://www.youtube.com/embed/TnDjIh02Vgw" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
 
+    <section id="pagina-destino">
+
+      <h2><strong>¿Te gustan los relojes?</strong> Encuentra el tuyo a continuación:</h2>
+
+    <div id="contenedor-imagen">
+      <div class="imagenes">
+        <p><strong>RELOJES PARA HOMBRES</strong></p>
+        <img id="reloj-hombres-img" src="Reloj Hombre.PNG" alt="reloj de hombre" />        
+      </div>
+      <div class="imagenes">
+        <p><strong>RELOJES PARA MUJERES</strong></p>
+        <img id="reloj-mujeres-img" src="Reloj Mujer.PNG" alt="reloj de mujer" />
         
-      <h2><strong>¿Te gustan los relojes?</strong>   Encuentra el tuyo a continuación:</h2>
-      
-      
-      
-      <section id="pagina-destino">
-      
-        <p><strong>RELOJES PARA HOMBRES</strong></p> 
-        <p><strong>RELOJES PARA MUJERES</strong></p> 
+      </div>
+      <div class="imagenes">
         <p><strong>RELOJES PARA NIÑOS</strong></p>
-      </section>
-        
-        
-          <div class="imagenes-relojes">                     
-             <img id="reloj-hombres-img" src="Reloj Hombre.PNG" alt="reloj de hombre"/>             
-             <img id="reloj-mujeres-img" src="Reloj Mujer.PNG" alt="reloj de mujer"/>             
-             <img id="reloj-niños-img" src="Reloj Niños.PNG" alt="reloj de niño"/>  
-        </div>
-      
+        <img id="reloj-niños-img" src="Reloj Niños.PNG" alt="reloj de niño" />        
+      </div>
+    </div>  
 
-      <section>
-        <footer><h2><strong>Copyright 2020, <em>RELOJES M&H</em></strong></h2>
-        </footer>
-      </section>
-        
-    </main>
-    
+    </section>
 
+    <section>
+      <footer>
+        <h2><strong>Copyright 2020, <em>RELOJES M&H</em></strong></h2>
+      </footer>
+    </section>
 
-<body>
-    
+  </main>
+
 </body>
+
 </html>
